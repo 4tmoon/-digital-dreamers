@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Dreamers</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="header-page" id="header">
+        <div class="container">
+            <!-- Inicio menu principal -->
+            <nav class="navbar navbar-expand-lg py-3">
+                <a class="navbar-brand logo" href="#">Digital Dreamers</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#diferenciais">Diferenciais</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Galeria</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#galeria">Imagens</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#videos">Vídeos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#eventos">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                        <div class="button">
+                            <a href="./login.html">Login</a>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Fim menu principal -->
+        </div>
+    </header>
+
+    <!-- INICIO  -->
+    <section class="section" id="inicio">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col my-5 py-5">
+                    <h2 class="py-3 title">
+                        Transformando o futuro da educação com robôs!
+                    </h2>
+                    <p>
+                        Invista em uma empresa de tecnologia que está revolucionando a educação com robótica para
+                        crianças, promovendo o raciocínio lógico desde cedo.
+                    </p>
+                </div>
+                <div class="col my-5 d-flex align-items-center justify-content-center image">
+                    <img src="./images/robo/imageR01.png" alt="Imagem de um robô acenando">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <!-- DIFERENCIAIS -->
+    <section class="section" id="diferenciais">
+        <!-- Iniciando o grid dos cards -->
+        <div class="container">
+            <h2 class="text-center title">Nossos diferenciais</h2>
+            <div class="cards">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <!-- inicio 1° card -->
+                    <div class="col my-3">
+                        <div class="card">
+                            <i class="fa-solid fa-microchip"></i>
+                            <div class="card-body">
+                                <h4 class="card-title">Preparando para o Futuro</h4>
+                                <p class="card-text">Com nossos robôs educacionais, as crianças têm a oportunidade de
+                                    aprender habilidades fundamentais para o futuro tecnológico.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fim 1° card -->
+
+                    <!-- inicio 2° card -->
+                    <div class="col my-3">
+                        <div class="card">
+                            <i class="fa-solid fa-battery-full"></i>
+                            <div class="card-body">
+                                <h4 class="card-title">Parcerias com escolas</h4>
+                                <p class="card-text">
+                                    Buscamos parcerias com escolas para disseminar a cultura da robótica e
+                                    desenvolver o raciocínio lógico das crianças desde a cedo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fim 2° card -->
+
+                    <!-- inicio 3° card -->
+                    <div class="col my-3">
+                        <div class="card">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            <div class="card-body">
+                                <h4 class="card-title">Inclusão feminina no mercado</h4>
+                                <p class="card-text"> Apoiamos a participação de meninas no mercado de tecnologia,
+                                    incentivando-as a se envolverem no mercado da robótica educacional.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fim 3° card -->
+
+                </div>
+            </div>
+        </div>
+        <!-- Finalizando o grid dos cards -->
+        </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <!-- GALERIA -->
+    <section class="section" id="galeria">
+        <div class="container">
+            <h2 class="text-center title">Galeria de fotos</h2>
+            <div class="row">
+                <div class="col-lg-4 my-4">
+                    <p>Aqui você pode conferir alguns projetos desenvolvidos por nossos alunos, desde os esboços
+                        iniciais de planejamento até as imagens mais recentes!</p>
+                    <div class="image">
+                        <img src="./images/robo/imageR02.svg" alt="Imagem de um robô apontando">
+                    </div>
+                </div>
+                <div class="col my-4">
+                    <!-- Inicio carrossel -->
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/robo/project01.svg" class="d-block w-100" alt="Imagem de um robô">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/robo/project02.svg" class="d-block w-100"
+                                    alt="Imagem de um robô">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/robo/project03.svg" class="d-block w-100"
+                                    alt="Imagem de um robô">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/robo/project04.svg" class="d-block w-100"
+                                    alt="Desenho de um robô">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/robo/project05.svg" class="d-block w-100"
+                                    alt="Imagem de um robô">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- Fim carrossel -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <!-- VIDEOS -->
+    <section class="section" id="videos">
+        <div class="container">
+            <div class="videos">
+                <h2 class="text-center title">Veja alguns vídeos</h2>
+                <div class="d-flex justify-content-center">
+                    <p>Também temos um canal no YouTube com vídeos sobre nossa empresa, eventos que participamos e outros vídeos legais. Confira a seguir!</p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2">
+                    <!-- Inicio container dos vídeos -->
+                    <div class="col my-4">
+                        <div class="ratio ratio-4x3">
+                            <iframe src="https://www.youtube.com/embed/GHp0fyv0fFc?si=4Ne07851v-UQ4v1Y"
+                                title="YouTube video player" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col my-4">
+                        <div class="ratio ratio-4x3">
+                            <iframe src="https://www.youtube.com/embed/PtIaPdUT62c?si=fpyZ9s6K6WZroBuf"
+                                title="YouTube video player" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!-- Fim container dos vídeos -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <!-- EVENTOS -->
+    <section class="section" id="eventos">
+        <div class="container">
+            <h2 class="text-center title">Conheça nossos eventos</h2>
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2">
+                <div class="col my-4">
+                    <div class="row g-0 bg-body-secondary position-relative align-items-center rounded-2">
+                        <div class="col-md-6 mb-md-0 p-md-4">
+                            <img src="./images/robocup-fiap.jpg" class="w-100" alt="imagem do local da Robocup">
+                        </div>
+                        <div class="col-md-6 p-4 ps-md-0">
+                            <h5 class="mt-0 text-center subtitle">Robocup</h5>
+                            <p>Na Robocup, os alunos do 1º ano de Sistemas de Informação elaboram em grupos robôs para
+                                competir em duelos, onde o objetivo principal é estourar o balão do adversário.</p>
+                            <a href="https://www.fiap.com.br" target="_blank" class="stretched-link">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col my-4">
+                    <div class="row g-0 bg-body-secondary position-relative align-items-center rounded-2">
+                        <div class="col-md-6 mb-md-0 p-md-4">
+                            <img src="./images/next-fiap.jpg" class="w-100" alt="imagem do evento NEXT">
+                        </div>
+                        <div class="col-md-6 p-4 ps-md-0">
+                            <h5 class="mt-0 text-center subtitle">NEXT</h5>
+                            <p>Os alunos classificados na Robocup participam do NEXT — um festival de tecnologia e
+                                inovação — onde poderão apresentar seus trabalhos e concorrer a premiações.</p>
+                            <a href="https://www.fiap.com.br/next/" target="_blank" class="stretched-link">Saiba
+                                mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <div class="divider-2"></div>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
+        <div class="container">
+            <div class="text-center text">
+                <h2 class="title">
+                    Sobre nós
+                </h2>
+                <p>
+                    Nosso time é formado exclusivamente por mulheres e estamos comprometidas e incentivar a
+                    participação
+                    feminina no mercado tecnológico.
+                </p>
+            </div>
+
+            <div class="container-fluid">
+                <div class="my-3 profiles">
+                    <!-- inicio 1° perfil -->
+                    <div class="profile">
+                        <img src="./images/profile/profile01.png" alt="foto de perfil">
+                        <div class="info">
+                            <h4 class="subtitle">
+                                Anaí Villca Rojas
+                            </h4>
+                            <p class="role">
+                                Diretora de Tecnologia (CTO)
+                            </p>
+                        </div>
+                    </div>
+                    <!-- fim 1° perfil -->
+
+                    <!-- inicio 2° perfil -->
+                    <div class="profile">
+                        <img src="./images/profile/profile02.png" alt="foto de perfil">
+                        <div class="info">
+                            <h4 class="subtitle">
+                                Anna Júlia Reis
+                            </h4>
+                            <p class="role">
+                                Diretora Financeira (CFO)
+                            </p>
+                        </div>
+                    </div>
+                    <!-- fim 2° perfil -->
+
+                    <!-- inicio 3° perfil -->
+                    <div class="profile">
+                        <img src="./images/profile/profile03.png" alt="foto de perfil">
+                        <div class="info">
+                            <h4 class="subtitle">
+                                Giovanna Cury
+                            </h4>
+                            <p class="role">
+                                Diretora de Operações (COO)
+                            </p>
+                        </div>
+                    </div>
+                    <!-- fim 3° perfil -->
+
+                    <!-- inicio 4° perfil -->
+                    <div class="profile">
+                        <img src="./images/profile/profile04.png" alt="foto de perfil">
+                        <div class="info">
+                            <h4 class="subtitle">
+                                Sophia Peruchi
+                            </h4>
+                            <p class="role">
+                                Diretora de Marketing (CMO)
+                            </p>
+                        </div>
+                    </div>
+                    <!-- fim 4° perfil -->
+
+                    <!-- inicio 5° perfil -->
+                    <div class="profile">
+                        <img src="./images/profile/profile05.png" alt="foto de perfil">
+                        <div class="info">
+                            <h4 class="subtitle">
+                                Vitoria da Costa
+                            </h4>
+                            <p class="role">
+                                Diretora Executiva (COO)
+                            </p>
+                        </div>
+                    </div>
+                    <!-- fim 5° perfil -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <!-- CONTATO -->
+    <section class="section" id="contato">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2">
+                <div class="col my-4">
+                    <h3 class=" title">Entre em contato</h3>
+                    <p>Conseguimos chamar sua atenção? Tem dúvidas ou quer enviar elogios? Entre em contato conosco,
+                        será um prazer responder!</p>
+
+                    <!-- Inicio formulario -->
+                    <form id="formulario">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="nome completo"
+                                required maxlength="50">
+                            <label for="nome">Nome completo</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="name@example.com" required>
+                            <label for="email">E-mail</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="assunto" name="assunto"
+                                placeholder="dúvidas, elogios ou negociações" required maxlength="20">
+                            <label for="assunto">Assunto</label>
+                        </div>
+                        <div class=" mb-3 form-floating">
+                            <textarea class="form-control" placeholder="Escreva a sua mensagem" id="mensagem"
+                                name="menagem" style="height: 100px" required maxlength="200"></textarea>
+                            <label for="mensagem">Mensagem</label>
+                        </div>
+
+                        <button type="button" class="btn button" id="btnAbrirModal">Enviar</button>
+                    </form>
+                    <!-- Fim formulario -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Formulário enviado com sucesso!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./images/robo/imageR04.svg" alt="Imagem de um robô segurando um lápis">
+                                    <p class="text-center">Agradecemos pelo contato! Responderemos em breve.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn button" data-bs-dismiss="modal">Entendido</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fim modal -->
+                </div>
+
+                <div class="col my-4 d-flex align-items-center justify-content-center">
+                    <img src="./images/robo/imageR03.svg" alt="Imagem de um robô segurando um coração">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="align-items-center mb-4 brand">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3">
+                    <div class="col my-3">
+                        <a class="logo" href="#">Digital Dreamers</a>
+                    </div>
+                    <div class="col my-3">
+                        <div class="social">
+                            <a href="https://www.youtube.com/@24DigitalDreamers" target="_blank"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitch"></i></a>
+                        </div>
+                    </div>
+                    <div class="col my-3">
+                        <div class="fiap">
+                            <img src="./images/logo-fiap.png" alt="Logo da FIAP">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="texto">
+                <p>©2024 Digital Dreamers <span>|</span> Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS do BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+    <!-- JS -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
